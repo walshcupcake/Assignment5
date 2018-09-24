@@ -1,0 +1,33 @@
+body {
+	font-family: 'Old Standard TT', serif;
+	background: linear-gradient (
+		rgba (238,230,255,0.75,
+		rgba (247,230,255,0.75,
+		rgba (255,230,255,0.75,
+		rgba (255,230,247,0.75,
+		rgba 255,255,255,0.75))));
+		/*I tried for hours to make this gradient work. I tried to take it out of
+		the body and put a #gradient in front of it, or calling it a background-image,
+		 etc. idk what to do so I'm sorry. I wanted to keep it in here though so you
+		 know I tried. Now I'm just gonna add a background color.*/
+	background-color: rgb(255,230,255);
+		/*update: having a background color didn't work either.*/
+}
+
+table, th, td {
+
+	border: 2px solid white;
+	font-family: garamond;
+	background-color: rgb(230,242,255);
+	text-align: center;
+	color: white;
+	text-shadow: 1px .5px gray;
+}
+
+th, td {
+	padding: 20px;
+}
+
+table caption {
+	color: rgb(153,204,255);
+}
